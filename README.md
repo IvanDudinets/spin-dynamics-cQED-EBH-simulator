@@ -61,10 +61,10 @@ Each `.npy` file contains a NumPy dictionary with keys:
 If you use this data, please cite the paper:
 
 ```bibtex
-@article{circuit_qed_spin_2024,
+@article{circuit_qed_spin_2025,
   title={Analog Circuit-QED Simulator of Quantum Spin Dynamics Through the Extended Bose-Hubbard Model},
-  author={Author List},
-  year={2024},
+  author={Ivan V. Dudinets, Jaehee Kim, Tomás Ramos, Aleksey K. Fedorov, Vladimir I. Man'ko, Joonsuk Huh},
+  year={2025},
   eprint={2507.03587},
   archivePrefix={arXiv},
   primaryClass={quant-ph}
