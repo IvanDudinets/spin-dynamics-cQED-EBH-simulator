@@ -1,14 +1,6 @@
-# spin-dynamics-cQED-EBH-simulator
-Supplementary material for "Analog Circuit-QED Simulator of Quantum Spin Dynamics Through the Extended Bose-Hubbard Model"
-
-
-Вот минималистичный и правильный README для вашего случая:
-
----
-
 # Circuit-QED Spin Dynamics Simulation Data
 
-**Supplementary material for the paper:**  
+**Supplementary material for:**  
 **[Analog Circuit-QED Simulator of Quantum Spin Dynamics Through the Extended Bose-Hubbard Model](https://arxiv.org/abs/2507.03587)**  
 *arXiv:2507.03587 [quant-ph]*
 
@@ -16,15 +8,16 @@ Supplementary material for "Analog Circuit-QED Simulator of Quantum Spin Dynamic
 
 ## 📁 Contents
 
-This repository contains the numerical simulation data used to generate the figures in the above paper.
+This repository contains the numerical simulation data used to generate the figures in this paper.
 
 ### File Structure:
 ```
 data/
-├── Fig3/      # Data for Figure 3: Spin dynamics vs. dimerization
-├── Fig4/      # Data for Figure 4: Parameter scans  
-├── Fig5/      # Data for Figure 5: Analytical comparisons
-└── Fig6/      # Data for Figure 6: Long-time correlations
+├── Fig3/      # Data for Figure 3a: Magnetization flow for dimerizations \delta = (0,0.1,0.2,0.3)
+               # Data for Figure 3b: Deviations of the local spin expectation values for different sites 
+├── Fig4/      # Data for Figure 4:  Correlation function for different sites 
+├── Fig5/      # Data for Figure 5:  Dynamics of the quantum Fisher information density for anisotropy parameters \eta = (0,0.1,0.2,0.3)
+└── Fig6/      # Data for Figure 6:  Imbalance dynamics for disorder strengths W = (10, 50, 80, 100)
 ```
 
 ### Data Format:
@@ -34,15 +27,6 @@ Each `.npy` file is a NumPy dictionary containing:
 - `observable_boson`: Boson observable values
 - `dimerization`: Parameter value (where applicable)
 
-## 📊 How to Use
-
-1. **Load data in Python:**
-   ```python
-   import numpy as np
-   data = np.load('data/Fig3/dimerization_0.1.npy', allow_pickle=True).item()
-   ```
-
-2. **Reproduce figures:** The data can be plotted using standard matplotlib routines as described in the paper.
 
 ## 📄 Citation
 
@@ -64,17 +48,3 @@ If you use this data, please cite:
 The datasets are provided under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 ---
-
-*This repository accompanies the preprint on arXiv. For questions, please contact the corresponding author.*
-
----
-
-**Этот README:**
-1. ✅ Ссылается на arXiv
-2. ✅ Кратко описывает файлы
-3. ✅ Показывает структуру данных
-4. ✅ Дает пример загрузки
-5. ✅ Включает шаблон для цитирования
-6. ✅ Указывает лицензию
-
-Просто скопируйте этот текст в файл `README.md` в вашем репозитории.
