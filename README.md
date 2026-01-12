@@ -54,6 +54,11 @@ Each `.npy` file contains a NumPy dictionary with keys:
 - (where applicable) `dimerization`: Dimerization parameter δ (or anisotropy η)
 - (where applicable) `W`: Disorder strength W
 
+## 📦 Data Availability
+
+- **Live repository:** [GitHub](https://github.com/IvanDudinets/spin-dynamics-cQED-EBH-simulator)
+- **Archived version:** [Zenodo DOI:10.5281/zenodo.18220576.svg)](https://doi.org/10.5281/zenodo.18220576)
+- 
 ## 📄 Citation
 
 If you use this data, please cite the paper:
