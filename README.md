@@ -1,3 +1,7 @@
+**Отличный финальный вариант!** Есть только небольшие стилистические правки:
+
+---
+
 # Circuit-QED Spin Dynamics Simulation Data
 
 **Supplementary material for:**  
@@ -12,7 +16,7 @@ This repository contains the numerical simulation data used to generate all figu
 
 ### File Structure:
 ```
-plot_figures.ipynb
+plot_figures.ipynb              # Load and plot all figures
 
 data/
 ├── Fig3/      # Data for Figure 3
@@ -39,21 +43,22 @@ data/
     ├── W_10.npy                # W = 10
     ├── W_50.npy                # W = 50
     ├── W_80.npy                # W = 80
-    └── W_100.npy               # W = 100
+    ├── W_100.npy               # W = 100
+    └── magnetic_field_h.npy    # Magnetic field for every site and given W
     # Imbalance dynamics for disorder strengths W = (10, 50, 80, 100)
 ```
 
 ### Data Format:
-Each `.npy` files contains a NumPy dictionary with keys:
+Each `.npy` file contains a NumPy dictionary with keys:
 - `times`: Time points array
 - `spin_observable`: Spin observable values  
 - `boson_observable`: Boson observable values
--  (where applicable) `dimerization`: Dimerization parameter δ (or anisotropy η)
--  (where applicable) `W`: disorder W
+- (where applicable) `dimerization`: Dimerization parameter δ (or anisotropy η)
+- (where applicable) `W`: Disorder strength W
 
 ## 📄 Citation
 
-If use this data, please cite the paper:
+If you use this data, please cite the paper:
 
 ```bibtex
 @article{circuit_qed_spin_2024,
@@ -73,5 +78,3 @@ The simulation datasets are licensed under the **Creative Commons Attribution 4.
 ---
 
 *For questions regarding this dataset, please contact the corresponding author.*
-
----
