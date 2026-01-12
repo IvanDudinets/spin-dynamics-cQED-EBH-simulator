@@ -57,16 +57,19 @@ Each `.npy` file contains a NumPy dictionary with keys:
 ## 📦 Data Availability
 
 - **Live repository:** [GitHub](https://github.com/IvanDudinets/spin-dynamics-cQED-EBH-simulator)
-- **Archived version:** [Zenodo DOI: 10.5281/zenodo.18220576](https://doi.org/10.5281/zenodo.18220576
+- **Archived version:** [Zenodo DOI: 10.5281/zenodo.18220576](https://doi.org/10.5281/zenodo.18220576)
+- **Corresponding paper:** [arXiv:2507.03587](https://arxiv.org/abs/2507.03587)
 
 ## 📄 Citation
 
-If you use this data, please cite the paper:
+If you use this data, please cite both the paper and the dataset:
 
+**Paper:**
 ```bibtex
 @article{circuit_qed_spin_2025,
   title={Analog Circuit-QED Simulator of Quantum Spin Dynamics Through the Extended Bose-Hubbard Model},
-  author={Ivan V. Dudinets, Jaehee Kim, Tomás Ramos, Aleksey K. Fedorov, Vladimir I. Man'ko, Joonsuk Huh},
+  author={Ivan V. Dudinets and Jaehee Kim and Tom{\'a}s Ramos and 
+          Aleksey K. Fedorov and Vladimir I. Man'ko and Joonsuk Huh},
   year={2025},
   eprint={2507.03587},
   archivePrefix={arXiv},
@@ -74,10 +77,19 @@ If you use this data, please cite the paper:
 }
 ```
 
+**Dataset:**
+```bibtex
+@dataset{spin_dynamics_data_2025,
+  author = {Ivan V. Dudinets and Jaehee Kim and Tom{\'a}s Ramos and 
+            Aleksey K. Fedorov and Vladimir I. Man'ko and Joonsuk Huh},
+  title = {Circuit-QED Spin Dynamics Simulation Data},
+  year = {2025},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.18220576},
+  url = {https://doi.org/10.5281/zenodo.18220576}
+}
+```
+
 ## 📜 License
 
 The simulation datasets are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
-
----
-
-*For questions regarding this dataset, please contact the corresponding author.*
