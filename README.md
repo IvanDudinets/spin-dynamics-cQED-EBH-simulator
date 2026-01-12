@@ -14,15 +14,31 @@ This repository contains the numerical simulation data used to generate all figu
 ```
 data/
 ├── Fig3/      # Data for Figure 3
-│   ├── Magnetization flow for dimerizations δ = (0, 0.1, 0.2, 0.3)
-│   └── Deviations of local spin expectation values for different sites
+│   ├── dimerization_0.npy      # δ = 0.0
+│   ├── dimerization_0p1.npy    # δ = 0.1
+│   ├── dimerization_0p2.npy    # δ = 0.2
+│   ├── dimerization_0p3.npy    # δ = 0.3
+│   └── mj.npy                  # Local magnetization data
+│   # Magnetization flow for dimerizations δ = (0, 0.1, 0.2, 0.3)
+│   # Deviations of local spin expectation values for different sites
+│
 ├── Fig4/      # Data for Figure 4
-│   └── Correlation function for different sites
+│   └── Cj.npy                  # Correlation function data
+│
 ├── Fig5/      # Data for Figure 5
-│   └── Dynamics of quantum Fisher information density 
-│       for anisotropy parameters η = (0, 0.1, 0.2, 0.3)
+│   ├── anisotropy_0.npy        # η = 0.0
+│   ├── anisotropy_0p1.npy      # η = 0.1
+│   ├── anisotropy_0p2.npy      # η = 0.2
+│   └── anisotropy_0p3.npy      # η = 0.3
+│   # Dynamics of quantum Fisher information density
+│   # for anisotropy parameters η = (0, 0.1, 0.2, 0.3)
+│
 └── Fig6/      # Data for Figure 6
-    └── Imbalance dynamics for disorder strengths W = (10, 50, 80, 100)
+    ├── W_10.npy                # W = 10
+    ├── W_50.npy                # W = 50
+    ├── W_80.npy                # W = 80
+    └── W_100.npy               # W = 100
+    # Imbalance dynamics for disorder strengths W = (10, 50, 80, 100)
 ```
 
 ### Data Format:
