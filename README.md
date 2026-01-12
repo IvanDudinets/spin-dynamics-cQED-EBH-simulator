@@ -12,6 +12,8 @@ This repository contains the numerical simulation data used to generate all figu
 
 ### File Structure:
 ```
+plot_figures.ipynb
+
 data/
 ├── Fig3/      # Data for Figure 3
 │   ├── dimerization_0.npy      # δ = 0.0
@@ -42,14 +44,12 @@ data/
 ```
 
 ### Data Format:
-Each `.npy` file contains a NumPy dictionary with keys:
-- `time`: Time points array
-- `observable_spin`: Spin observable values  
-- `observable_boson`: Boson observable values
-- `dimerization` (where applicable): Dimerization parameter δ
-- `anisotropy` (where applicable): Anisotropy parameter η
-- `disorder` (where applicable): Disorder strength W
-
+Each `.npy` files contains a NumPy dictionary with keys:
+- `times`: Time points array
+- `spin_observable`: Spin observable values  
+- `boson_observable`: Boson observable values
+-  (where applicable) `dimerization`: Dimerization parameter δ (or anisotropy η)
+-  (where applicable) `W`: disorder W
 
 ## 📄 Citation
 
