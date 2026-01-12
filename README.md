@@ -80,8 +80,7 @@ If you use this data, please cite both the paper and the dataset:
 **Dataset:**
 ```bibtex
 @dataset{spin_dynamics_data_2025,
-  author = {Ivan V. Dudinets and Jaehee Kim and Tom{\'a}s Ramos and 
-            Aleksey K. Fedorov and Vladimir I. Man'ko and Joonsuk Huh},
+  author = {Ivan V. Dudinets},
   title = {Circuit-QED Spin Dynamics Simulation Data},
   year = {2025},
   publisher = {Zenodo},
