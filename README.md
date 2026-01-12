@@ -81,7 +81,7 @@ If you use this data, please cite both the paper and the dataset:
 ```bibtex
 @dataset{spin_dynamics_data_2025,
   author = {Ivan V. Dudinets and others},
-  title = {Circuit-QED Spin Dynamics Simulation Data},
+  title = {spin-dynamics-cQED-EBH-simulator},
   year = {2025},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.18220576},
